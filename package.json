@@ -1,0 +1,38 @@
+{
+  "name": "e-store",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "1. npx create-react-app frontend; 1. [cd frontend] 1. [ npm start ]",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm install && cd ./frontend && npm install && npm run build",
+
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamwangziwei/e-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamwangziwei/e-store/issues"
+  },
+  "homepage": "https://github.com/iamwangziwei/e-store#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "isodate": "^0.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.8.0",
+    "react-toastify": "^9.1.1"
+  }
+}

@@ -1,0 +1,17 @@
+After start the backend, try these commands:
+
+curl -X GET "http://localhost:3030/skishop/products/"
+curl -X GET "http://localhost:3030/skishop/products/search"
+curl -X GET "http://localhost:3030/skishop/products/categories"
+curl -X GET "http://localhost:3030/skishop/products/brands"
+curl -X GET "http://localhost:3030/skishop/products/639a6917999530dcd53b5b17"
+curl -X GET "http://localhost:3030/skishop/products/tag/volcom-snow-pant-2"
+curl -X GET "http://localhost:3030/skishop/seed/"
+curl -X GET "http://localhost:3030/skishop/orders/"
+curl -X POST "http://localhost:3030/skishop/orders/"
+curl -X GET "http://localhost:3030/skishop/orders/allyears"
+curl -X GET "http://localhost:3030/skishop/orders/allmonths"
+curl -X GET "http://localhost:3030/skishop/orders/sellsreport"
+curl -X GET "http://localhost:3030/skishop/orders/usagereport"
+
+
